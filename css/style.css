@@ -1,0 +1,32 @@
+html, body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #000;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited, a:active {
+  color: #000;
+}
+
+li {
+  list-style-type: none;
+}
+
+.sec_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 2fr;
+  grid-gap: 30px;
+}
+.sec_1 article {
+  background-color: #000;
+  border: 1px solid #00FF9C;
+  border-radius: 20px;
+}
+.sec_1 .big_box {
+  grid-row: 1/span 2;
+}/*# sourceMappingURL=style.css.map */
